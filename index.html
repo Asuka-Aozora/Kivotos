@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Kivotos</title>
+</head>
+<body>
+
+    <!--===== Header =====-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Texas</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About Us</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Featured</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!--===== Close Button =====-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!--===== Search Button =====-->
+                <i class="ri-search-line nav__search" id="search-btn"></i>
+
+                <!--===== Login Button =====-->
+                <i class="ri-user-line nav__login" id="login-btn"></i>
+
+                <!--===== Toggle Button =====-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    
+    <!--===== Search =====-->
+    <div class="search" id="search">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+        </form>
+
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+    <!--===== Login =====-->
+    <div class="login" id="login">
+        <form action="" class="login__form">
+            <h2 class="login__title">Log In</h2>
+
+            <div class="login__group">
+                <div>
+                    <label for="email" class="login__label">Email</label>
+                    <input type="email" placeholder="Enter your email" id="email" class="login__input" required>
+                </div>
+
+                <div>
+                    <label for="password" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" class="login__input" required>
+                </div>
+            </div>
+
+            <div>
+                <p class="login__signup">
+                    Don't have an account? <a href="#">Sign Up</a>
+                </p>
+
+                <a href="#" class="login__forgot">
+                    Forgot Password
+                </a>
+
+                <button type="submit" class="login__button">Log In</button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+    <!--===== Home =====-->
+    <section id="home" class="home">
+       <div class="content">
+        <h1 class="banner">
+            Texas From Penguin logistic
+        </h1>
+        <h3 class="slogan">
+            My roles are driving, carge transport, and personnel safety.
+            <br>
+            please keep your mission briefings short and to the point.
+        </h3>
+        <div class="buttons">
+            <a href="#" class="btn2">Get Started</a>
+            <a href="#" class="btn2">Learn More</a>
+        </div>
+       </div> 
+
+       <div class="image">
+        <img class="texas" src="assets/img/TexasSyg.png" alt="">
+       </div>
+
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+
+        <div class="fas fa-cog nut1"></div>
+        <div class="fas fa-cog nut2"></div>
+
+    </section>
+
+    <!--==== Featured ====-->
+    <section class="feature" id="feature">
+        <h1 class="heading"><span>Identity</span></h1>
+
+        <div class="box-container">
+
+            <div class="card2">
+                <div class="imgBx2">
+                    <img id="base" class="base active" src="assets/img/texas1.png" alt="">
+                    <img id="elite" class="elite " src="assets/img/texas2.png" alt="">
+                </div>
+                <div class="contentBx2">
+                    <h2>Cellinia Texas</h2>
+    
+                    <div class="color2">
+                        <h3 class="h3">Outfit :</h3>
+                        <span class="span base active" id="base">Base</span>
+                        <span class="span elite" id="elite">Elite II</span>
+                    </div>
+                    <a class="btn" href="#">Receive</a>
+                </div>
+            </div>
+            
+            <div class="card3">
+                <div class="imgBx3">
+                    <img id="base" class="base active" src="assets/img/lappland1.png" alt="">
+                    <img id="elite" class="elite " src="assets/img/lappland2.png" alt="">
+                </div>
+                <div class="contentBx3">
+                    <h2>Lappland Saluzzo</h2>
+    
+                    <div class="color3">
+                        <h3 class="h4">Outfit :</h3>
+                        <span class="span2 base2 active" id="base">Base</span>
+                        <span class="span2 elite2" id="elite">Elite II</span>
+                    </div>
+                    <a class="btn" href="#">Receive</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--===== Footer =====-->
+    <footer class="footer">
+        <div class="animation"></div>
+        <div class="footer__social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="footer__copyright">
+            <p><small>&copy; 2022 Texas | All rights reserved | Powered by <a href="https://github.com/Asuka-Aozora" target="_blank" rel="noopener noreferrer">Asuka-Aozora</a></small></p>
+        </div>
+         
+    </footer>
+
+
+    <!--===== Vanilla JS =====-->
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".texas"), {
+		max: 25,
+		speed: 400
+	});
+    VanillaTilt.init(document.querySelector(".card2"), {
+		max: 25,
+		speed: 600,
+        glare: true,
+        "max-glare": 0.2,
+	});
+    VanillaTilt.init(document.querySelector(".card3"), {
+		max: 25,
+		speed: 600,
+        glare: true,
+        "max-glare": 0.2,
+	});
+    </script>
+    <!--===== Jquery =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--===== Main JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
